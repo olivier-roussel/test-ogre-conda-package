@@ -88,7 +88,7 @@ if(USE_OGRE)
     endforeach()
   endif()
 
-#   vp_filter_libraries_with_imported_location(OGRE_LIBRARIES)
+  vp_filter_libraries_with_imported_location(OGRE_LIBRARIES)
 
   mark_as_advanced(OGRE_SAMPLES_INCLUDEPATH)
   #message("OGRE_SAMPLES_INCLUDEPATH: ${OGRE_SAMPLES_INCLUDEPATH}")
