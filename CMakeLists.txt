@@ -28,8 +28,8 @@ endif()
 
 configure_file(vpConfig.h.in vpConfig.h)
 
-# add_executable(${PROJECT_NAME} src/main.cpp)
-add_executable(${PROJECT_NAME} src/vpAROgre.cpp src/main.cpp)
+add_executable(${PROJECT_NAME} src/main.cpp)
+# add_executable(${PROJECT_NAME} src/vpAROgre.cpp src/main.cpp)
 
 
 if(USE_OGRE)
